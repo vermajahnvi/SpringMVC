@@ -36,7 +36,7 @@
 
         <property name="packagesToScan">
             <list>
-                <value>np.com.mshrestha.bookstore.model</value>
+                <value>src/main/java</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -54,5 +54,5 @@
     </bean>
 
     <tx:annotation-driven transaction-manager="transactionManager" />
-    <context:component-scan base-package="np.com.mshrestha.bookstore" />
+    <context:component-scan base-package="src/main/java" />
 </beans>
